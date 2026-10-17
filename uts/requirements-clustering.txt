@@ -1,0 +1,12 @@
+# Untuk eksperimen numerik ini saja; tidak memerlukan backend/mobile/NLP.
+# Gunakan Python 3.12. NumPy 1.x untuk kompatibilitas sklearn-extra 0.3.0.
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn>=1.5.2
+scikit-learn-extra==0.3.0
+matplotlib>=3.8
+hdbscan>=0.8.40
+
+# Untuk membuka dan menjalankan notebook secara interaktif.
+jupyter==1.1.1
+ipykernel==6.29.5
