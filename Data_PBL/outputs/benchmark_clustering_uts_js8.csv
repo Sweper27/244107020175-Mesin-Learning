@@ -1,0 +1,10 @@
+Algoritma,Metrik,Jumlah_Klaster,Titik_Noise,Waktu_Eksekusi (ms),Memori_Puncak (KB),Silhouette_Score
+K-Means,Euclidean,3,0,108.69,242.5,0.2116
+K-Means,Manhattan,3,0,56.41,53.65,0.2615
+K-Means,Cosine,3,0,57.56,53.21,0.3674
+DBSCAN,Euclidean,2,33,6.76,119.38,0.2596
+DBSCAN,Manhattan,1,26,7.46,110.53,0.0
+DBSCAN,Cosine,1,0,7.77,1511.85,0.0
+HDBSCAN,Euclidean,2,40,23.41,125.87,0.2665
+HDBSCAN,Manhattan,2,59,23.64,121.48,0.412
+HDBSCAN,Cosine,7,123,25.42,1248.47,0.6886

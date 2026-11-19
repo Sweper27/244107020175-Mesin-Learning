@@ -1,0 +1,4 @@
+Model,MAE,MSE,RMSE,R2_Score
+Linear Regression,0.1946,0.0824,0.287,-0.0376
+SVR (RBF Kernel),0.204,0.0931,0.3051,-0.1724
+SVR (Linear Kernel),0.1892,0.0825,0.2872,-0.0386

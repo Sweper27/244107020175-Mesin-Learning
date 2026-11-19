@@ -1,0 +1,4 @@
+Model & Fitur,Akurasi,Precision (Macro),Recall (Macro),F1-Score (Macro)
+MultinomialNB (Bag-of-Words),0.6926,0.5626,0.5992,0.5492
+MultinomialNB (TF-IDF),0.7092,0.4559,0.4551,0.4487
+"kNN (K=9, Cosine TF-IDF)",0.6956,0.6264,0.5087,0.5355

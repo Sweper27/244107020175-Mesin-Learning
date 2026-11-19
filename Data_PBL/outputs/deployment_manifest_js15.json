@@ -1,0 +1,27 @@
+{
+  "project": "Cafind Recommendation Engine",
+  "version": "1.0.0",
+  "pipeline_model": "cafind_sentiment_pipeline.joblib",
+  "dataset_source": "dump-cafind-202611172252.sql",
+  "total_cafes_indexed": 275,
+  "endpoints": [
+    {
+      "route": "/api/recommend",
+      "method": "POST",
+      "description": "Menerima query preferensi suasana/kebutuhan dan mengembalikan daftar rekomendasi cafe.",
+      "request_body": {
+        "query": "string",
+        "budget_max": "float",
+        "top_k": "int"
+      }
+    },
+    {
+      "route": "/api/analyze-sentiment",
+      "method": "POST",
+      "description": "Mengklasifikasikan sentimen teks ulasan ulasan baru (positive, neutral, negative).",
+      "request_body": {
+        "text": "string"
+      }
+    }
+  ]
+}

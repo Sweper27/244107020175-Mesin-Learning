@@ -1,0 +1,4 @@
+Model PBL,Akurasi (%),Precision Macro,Recall Macro,Macro F1-Score,Weighted F1-Score,Waktu_Train (s),Latensi_Infer (ms)
+K-Nearest Neighbors (KNN),68.58,0.5778,0.5027,0.5235,0.6718,0.004,0.0767
+Naive Bayes (MultinomialNB),71.0,0.5926,0.4631,0.4668,0.6796,0.007,0.0002
+Support Vector Machine (Linear SVM),71.15,0.5855,0.6674,0.6061,0.7253,2.525,0.3608
